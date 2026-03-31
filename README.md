@@ -1,1 +1,1 @@
-# QSBench-Website
+# QSBench
