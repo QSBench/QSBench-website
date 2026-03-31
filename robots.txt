@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qsbench.github.io/sitemap.xml
+
+# Block unnecessary paths
+Disallow: /assets/
+Disallow: /thanks.html
