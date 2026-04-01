@@ -6,16 +6,8 @@
   
   <!-- SEO -->
   <title>QSBench — Ideal. Noisy. Reproducible. | Synthetic Quantum Datasets</title>
-  <meta name="description" content="High-quality synthetic quantum datasets for Quantum Machine Learning, benchmarking, noise robustness, and hybrid quantum-classical research. Ideal and noisy expectation values with full metadata.">
+  <meta name="description" content="High-quality synthetic quantum datasets for Quantum Machine Learning, benchmarking, noise robustness, and hybrid quantum-classical research.">
   
-  <!-- Open Graph -->
-  <meta property="og:title" content="QSBench — Ideal. Noisy. Reproducible.">
-  <meta property="og:description" content="Synthetic quantum datasets for QML and quantum research.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://qsbench.github.io">
-  <meta property="og:image" content="https://qsbench.github.io/og-image.png">
-  <meta name="twitter:card" content="summary_large_image">
-
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
@@ -24,13 +16,11 @@
   <!-- Hero -->
   <section class="hero-bg py-20 border-b border-slate-800" style="background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);">
     <div class="max-w-5xl mx-auto px-6 text-center">
-      <!-- Logo -->
       <div class="mb-6 flex justify-center">
         <div class="w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-2xl flex items-center justify-center text-4xl font-bold">
           QS
         </div>
       </div>
-      
       <h1 class="text-5xl font-bold tracking-tight mb-3">QSBench</h1>
       <p class="text-4xl font-light text-cyan-400 mb-6">Ideal. Noisy. Reproducible.</p>
       <p class="text-lg text-slate-300 max-w-3xl mx-auto">
@@ -39,17 +29,15 @@
 
       <!-- Buttons -->
       <div class="flex justify-center gap-4 mt-10 flex-wrap">
-        <a href="https://github.com/QSBench/QSBench-Demo" 
-           target="_blank"
+        <a href="https://github.com/QSBench/QSBench-Demo" target="_blank"
            class="px-8 py-4 bg-white text-slate-900 font-semibold rounded-2xl hover:bg-cyan-400 transition flex items-center gap-2">
           <i class="fab fa-github text-xl"></i> GitHub
         </a>
-        <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" 
-           target="_blank"
+        <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank"
            class="px-8 py-4 border border-slate-400 font-semibold rounded-2xl hover:border-white transition flex items-center gap-2">
           <i class="fa-solid fa-database"></i> Hugging Face
         </a>
-        <a href="https://qsbench.bgng.io/products" 
+        <a href="https://qsbench.bgng.io/products"
            class="px-8 py-4 border border-slate-400 font-semibold rounded-2xl hover:border-white transition">
           Full Catalog →
         </a>
@@ -60,22 +48,21 @@
   <!-- Datasets Section -->
   <section class="max-w-6xl mx-auto px-6 py-16">
     <h2 class="text-3xl font-semibold mb-12 text-center">Available Datasets</h2>
-    
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
       <!-- Demo -->
       <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8 hover:border-cyan-400 transition">
         <h3 class="text-2xl font-semibold mb-2">QSBench Demo v1.0.0</h3>
-        <p class="text-cyan-400 font-medium">Public preview • Free access</p>
-        <p class="text-slate-400 mt-4">
-          First product-line demo for exploring structure, metadata, and reproducible workflows.
-        </p>
+        <p class="text-cyan-400 font-medium">Public preview • Free</p>
+        <p class="text-slate-400 mt-4">200 mixed circuits for exploring structure and metadata.</p>
         <div class="mt-6 grid gap-3">
-          <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
+          <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" 
+             class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
             Hugging Face Demo →
           </a>
-          <a href="https://github.com/QSBench/QSBench-Demo" target="_blank" class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
-            GitHub Demo →
+          <a href="https://github.com/QSBench/QSBench-Demo" target="_blank" 
+             class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
+            GitHub →
           </a>
         </div>
       </div>
@@ -125,27 +112,48 @@
         <div class="absolute -top-3 right-4 bg-emerald-500 text-emerald-950 text-xs font-bold px-3 py-1 rounded-full">NEW</div>
         <h3 class="text-2xl font-semibold mb-2">Transpilation Hardware v1.0.0</h3>
         <p class="text-emerald-400 font-medium">200,000 circuits • 10 qubits</p>
-        <p class="text-slate-400 mt-4">
-          Large clean dataset optimized for transpilation and hardware-aware research.
-        </p>
+        <p class="text-slate-400 mt-4">Large clean dataset optimized for transpilation and hardware-aware research.</p>
         <a href="https://qsbench.bgng.io/products" class="mt-6 block text-center py-3 border border-emerald-500/50 text-emerald-400 rounded-2xl hover:bg-emerald-950 transition">
           View on Store →
         </a>
       </div>
-
     </div>
   </section>
+
+  <!-- Noise Robustness Benchmark Demo -->
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-semibold mb-8 text-center">Noise Robustness Benchmark</h2>
+  <p class="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
+    Demo of how different noise models affect the quality of expectation value prediction 
+    using RandomForest on QSBench datasets.
+  </p>
+  
+  <div class="bg-slate-900 rounded-3xl p-8 border border-slate-700">
+    <img src="https://i.imgur.com/0GTlK49.png"
+         alt="QSBench Noise Robustness Benchmark"
+         class="rounded-2xl w-full shadow-2xl">
+    
+    <div class="mt-6 text-center">
+      <p class="text-sm text-slate-400">
+        RandomForestRegressor • Metrics: R², MAE, Average Noise Probability<br>
+        Datasets: Core (clean), Depolarizing, Amplitude Damping, Transpilation Hardware
+      </p>
+    </div>
+  </div>
+</section>
 
   <!-- Custom Request -->
   <section class="max-w-2xl mx-auto px-6 py-16 bg-slate-900 border border-slate-700 rounded-3xl mx-6">
     <h2 class="text-3xl font-semibold mb-2 text-center">Request a Custom Dataset</h2>
     <p class="text-slate-400 text-center mb-8">Need specific parameters or a new hardware-oriented dataset?</p>
-
+    
     <div class="space-y-4">
-      <a href="https://github.com/QSBench/QSBench-Demo/issues/10" target="_blank" class="w-full block text-center bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold py-4 rounded-2xl transition">
+      <a href="https://github.com/QSBench/QSBench-Demo/issues/10" target="_blank" 
+         class="w-full block text-center bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold py-4 rounded-2xl transition">
         Request via GitHub Issue →
       </a>
-      <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" class="w-full block text-center border border-slate-600 hover:border-white font-semibold py-4 rounded-2xl transition">
+      <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" 
+         class="w-full block text-center border border-slate-600 hover:border-white font-semibold py-4 rounded-2xl transition">
         View Free Demo on Hugging Face →
       </a>
     </div>
