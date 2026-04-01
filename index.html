@@ -6,7 +6,7 @@
   
   <!-- SEO -->
   <title>QSBench — Ideal. Noisy. Reproducible. | Synthetic Quantum Datasets</title>
-  <meta name="description" content="High-quality synthetic quantum datasets for Quantum Machine Learning, benchmarking, noise robustness, and hybrid quantum-classical research.">
+  <meta name="description" content="High-quality synthetic quantum datasets with paired ideal and noisy expectation values. Designed for reliable Quantum Machine Learning, benchmarking, and noise robustness research.">
   
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -16,6 +16,7 @@
   <!-- Hero -->
   <section class="hero-bg py-20 border-b border-slate-800" style="background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);">
     <div class="max-w-5xl mx-auto px-6 text-center">
+      <!-- Logo -->
       <div class="mb-6 flex justify-center">
         <div class="w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-2xl flex items-center justify-center text-4xl font-bold">
           QS
@@ -24,7 +25,8 @@
       <h1 class="text-5xl font-bold tracking-tight mb-3">QSBench</h1>
       <p class="text-4xl font-light text-cyan-400 mb-6">Ideal. Noisy. Reproducible.</p>
       <p class="text-lg text-slate-300 max-w-3xl mx-auto">
-        High-quality synthetic quantum datasets for Quantum Machine Learning, benchmarking, and hybrid quantum-classical research.
+        High-quality synthetic quantum datasets with paired ideal and noisy expectation values, 
+        rich metadata, and deterministic splits.
       </p>
 
       <!-- Buttons -->
@@ -42,6 +44,18 @@
           Full Catalog →
         </a>
       </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition -->
+  <section class="max-w-5xl mx-auto px-6 py-16 text-center border-b border-slate-800">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-6">Why QSBench?</h2>
+      <p class="text-slate-300 text-lg leading-relaxed">
+        Most quantum datasets are too small, lack paired ideal/noisy targets, or are difficult to reproduce consistently. 
+        QSBench addresses these issues by providing <strong>high-quality, richly annotated, and fully reproducible</strong> 
+        synthetic datasets specifically designed for Quantum Machine Learning and noise robustness research.
+      </p>
     </div>
   </section>
 
@@ -121,32 +135,31 @@
   </section>
 
   <!-- Noise Robustness Benchmark Demo -->
-<section class="max-w-6xl mx-auto px-6 py-16">
-  <h2 class="text-3xl font-semibold mb-8 text-center">Noise Robustness Benchmark</h2>
-  <p class="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
-    Demo of how different noise models affect the quality of expectation value prediction 
-    using RandomForest on QSBench datasets.
-  </p>
-  
-  <div class="bg-slate-900 rounded-3xl p-8 border border-slate-700">
-    <img src="https://i.imgur.com/0GTlK49.png"
-         alt="QSBench Noise Robustness Benchmark"
-         class="rounded-2xl w-full shadow-2xl">
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Noise Robustness Benchmark</h2>
+    <p class="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
+      Interactive demonstration of how different noise models affect the quality of expectation value prediction 
+      using RandomForestRegressor on QSBench datasets.
+    </p>
     
-    <div class="mt-6 text-center">
-      <p class="text-sm text-slate-400">
-        RandomForestRegressor • Metrics: R², MAE, Average Noise Probability<br>
-        Datasets: Core (clean), Depolarizing, Amplitude Damping, Transpilation Hardware
-      </p>
+    <div class="bg-slate-900 rounded-3xl p-8 border border-slate-700">
+      <img src="https://i.imgur.com/0GTlK49.png" 
+           alt="QSBench Noise Robustness Benchmark"
+           class="rounded-2xl w-full shadow-2xl">
+      
+      <div class="mt-6 text-center">
+        <p class="text-sm text-slate-400">
+          RandomForestRegressor • Metrics: R², MAE, Average Noise Probability<br>
+          Datasets: Core (clean), Depolarizing, Amplitude Damping, Transpilation Hardware
+        </p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Custom Request -->
   <section class="max-w-2xl mx-auto px-6 py-16 bg-slate-900 border border-slate-700 rounded-3xl mx-6">
     <h2 class="text-3xl font-semibold mb-2 text-center">Request a Custom Dataset</h2>
-    <p class="text-slate-400 text-center mb-8">Need specific parameters or a new hardware-oriented dataset?</p>
-    
+    <p class="text-slate-400 text-center mb-8">Need a dataset with specific parameters or custom noise model?</p>
     <div class="space-y-4">
       <a href="https://github.com/QSBench/QSBench-Demo/issues/10" target="_blank" 
          class="w-full block text-center bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold py-4 rounded-2xl transition">
