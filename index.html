@@ -38,7 +38,7 @@
       </p>
 
       <!-- Buttons -->
-      <div class="flex justify-center gap-4 mt-10">
+      <div class="flex justify-center gap-4 mt-10 flex-wrap">
         <a href="https://github.com/QSBench/QSBench-Demo" 
            target="_blank"
            class="px-8 py-4 bg-white text-slate-900 font-semibold rounded-2xl hover:bg-cyan-400 transition flex items-center gap-2">
@@ -62,6 +62,23 @@
     <h2 class="text-3xl font-semibold mb-12 text-center">Available Datasets</h2>
     
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Demo -->
+      <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8 hover:border-cyan-400 transition">
+        <h3 class="text-2xl font-semibold mb-2">QSBench Demo v1.0.0</h3>
+        <p class="text-cyan-400 font-medium">Public preview • Free access</p>
+        <p class="text-slate-400 mt-4">
+          First product-line demo for exploring structure, metadata, and reproducible workflows.
+        </p>
+        <div class="mt-6 grid gap-3">
+          <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
+            Hugging Face Demo →
+          </a>
+          <a href="https://github.com/QSBench/QSBench-Demo" target="_blank" class="block text-center py-3 border border-slate-600 rounded-2xl hover:bg-slate-800 transition">
+            GitHub Demo →
+          </a>
+        </div>
+      </div>
 
       <!-- Lite -->
       <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8 hover:border-cyan-400 transition">
@@ -123,19 +140,15 @@
   <section class="max-w-2xl mx-auto px-6 py-16 bg-slate-900 border border-slate-700 rounded-3xl mx-6">
     <h2 class="text-3xl font-semibold mb-2 text-center">Request a Custom Dataset</h2>
     <p class="text-slate-400 text-center mb-8">Need specific parameters or a new hardware-oriented dataset?</p>
-    
-    <form action="https://formsubmit.co/n.yankovich@mail.ru" method="POST" class="space-y-6">
-      <input type="text" name="name" placeholder="Your name / organization" required class="w-full bg-slate-800 border border-slate-600 rounded-2xl px-6 py-4 focus:outline-none focus:border-cyan-400">
-      <input type="email" name="email" placeholder="Email address" required class="w-full bg-slate-800 border border-slate-600 rounded-2xl px-6 py-4 focus:outline-none focus:border-cyan-400">
-      <textarea name="request" rows="5" placeholder="Describe the dataset you need..." required class="w-full bg-slate-800 border border-slate-600 rounded-3xl px-6 py-4 focus:outline-none focus:border-cyan-400"></textarea>
-      
-      <input type="hidden" name="_subject" value="New Custom Dataset Request">
-      <input type="hidden" name="_captcha" value="false">
-      
-      <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold py-4 rounded-2xl transition">
-        Send Request
-      </button>
-    </form>
+
+    <div class="space-y-4">
+      <a href="https://github.com/QSBench/QSBench-Demo/issues/10" target="_blank" class="w-full block text-center bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold py-4 rounded-2xl transition">
+        Request via GitHub Issue →
+      </a>
+      <a href="https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo" target="_blank" class="w-full block text-center border border-slate-600 hover:border-white font-semibold py-4 rounded-2xl transition">
+        View Free Demo on Hugging Face →
+      </a>
+    </div>
   </section>
 
   <footer class="border-t border-slate-800 py-12 text-center text-slate-500 text-sm">
