@@ -1,8 +1,22 @@
+# robots.txt for QSBench — https://qsbench.github.io
+# Last updated: 2026-04-12
+
 User-agent: *
+
+# Разрешаем индексацию всего сайта
 Allow: /
 
+# Явно указываем карту сайта
 Sitemap: https://qsbench.github.io/sitemap.xml
 
-# Block unnecessary paths
+# Блокируем ненужные или внутренние пути
 Disallow: /assets/
 Disallow: /thanks.html
+Disallow: /.git/
+Disallow: /_site/
+Disallow: /_config.yml
+Disallow: /README.md
+Disallow: /CONTRIBUTING.md
+
+# Опционально: замедляем агрессивных краулеров
+# Crawl-delay: 2

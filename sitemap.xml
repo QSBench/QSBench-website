@@ -1,15 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Главная страница -->
   <url>
     <loc>https://qsbench.github.io/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Демо-датасеты (Hugging Face) -->
   <url>
-    <loc>https://qsbench.github.io/products</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Depolarizing-Demo-v1.0.0</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Amplitude-v1.0.0-demo</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Transpilation-v1.0.0-demo</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Thermal-Demo-v1.0.0</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Device-Demo-v1.0.0</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/datasets/QSBench/QSBench-Readout-Demo-v1.0.0</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Интерактивные Spaces -->
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Noise-Robustness-Benchmark</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Multi-Target_Regression</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Circuit_Family_Classifier</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Entanglement_Score_Regression</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/CNOT_Count_Regression</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Noise_Detection</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huggingface.co/spaces/QSBench/Circuit-Complexity-Clustering</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
